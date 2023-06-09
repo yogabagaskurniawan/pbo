@@ -22,6 +22,12 @@ class Matematika:
         print(hasil)
         return hasil
     
+    def perpangkatan(nilai1,nilai2):
+        hasil = nilai1**nilai2
+        print(hasil)
+        return hasil
+    
     penjumlahan(2,2)
     pengurangan(10,10,10,10)
     perkalian(20,10,6)
+    perpangkatan(5,2)
